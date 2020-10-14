@@ -1,8 +1,16 @@
 # sparkle-ui
-
 > Open source component library.
 
-[![NPM](https://img.shields.io/npm/v/sparkle-ui.svg)](https://www.npmjs.com/package/sparkle-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+## Development
+> To launch for development mode. Use 2 terminals.
+
+1. Clone Repo
+
+Terminal no. 1:
+2. cd sparkle-ui && npm start
+
+Terminal no. 2:
+3. cd sparkle-ui/example && npm start
 
 ## Install
 
@@ -15,12 +23,12 @@ npm install --save sparkle-ui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'sparkle-ui'
+import { Card } from 'sparkle-ui'
 import 'sparkle-ui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Card learnText="Learn More" alt="Samsung Camera" target="#">Lorem ipsum dolor asit amet.</Card>
   }
 }
 ```

@@ -1,6 +1,10 @@
 import React from 'react'
-import styles from './styles.module.css'
+import Container from './components/Container/index'
+import Grid from './components/Grid/index'
+import Card from './components/Card/index'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export {
+  Container,
+  Grid,
+  Card
+};
